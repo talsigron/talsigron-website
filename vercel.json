@@ -13,8 +13,16 @@
   ],
   "rewrites": [
     {
+      "source": "/mentanail",
+      "destination": "https://yasmin-tor.vercel.app/mentanail"
+    },
+    {
       "source": "/mentanail/:path*",
       "destination": "https://yasmin-tor.vercel.app/mentanail/:path*"
+    },
+    {
+      "source": "/180studio",
+      "destination": "https://yasmin-tor.vercel.app/180studio"
     },
     {
       "source": "/180studio/:path*",
