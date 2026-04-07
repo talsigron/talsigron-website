@@ -10,5 +10,15 @@
         { "key": "X-XSS-Protection", "value": "1; mode=block" }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/mentanail/:path*",
+      "destination": "https://yasmin-tor.vercel.app/mentanail/:path*"
+    },
+    {
+      "source": "/180studio/:path*",
+      "destination": "https://yasmin-tor.vercel.app/180studio/:path*"
+    }
   ]
 }
