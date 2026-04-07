@@ -31,6 +31,14 @@
     {
       "source": "/180studio/:path*",
       "destination": "https://yasmin-tor.vercel.app/180studio/:path*"
+    },
+    {
+      "source": "/yasmin-tor",
+      "destination": "https://yasmin-tor.vercel.app/"
+    },
+    {
+      "source": "/yasmin-tor/:path*",
+      "destination": "https://yasmin-tor.vercel.app/:path*"
     }
   ]
 }
